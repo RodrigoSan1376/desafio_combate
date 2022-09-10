@@ -19,7 +19,7 @@ public class Champion {
 	}
 	
 	public void takeDamage (Champion other) {
-		life -= other.attack;
+		life -= (other.attack - armor);
 	}
 	
 	public String status() {
